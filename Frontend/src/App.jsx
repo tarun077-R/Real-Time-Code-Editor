@@ -70,7 +70,7 @@ function App() {
 
     // Socket.IO Provider Create
     const provider = new SocketIOProvider(
-      "http://localhost:3000", // Backend URL
+      "/", // Backend URL
       "monaco",                // Room Name
       ydoc,                    // Shared Document
       {
